@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Google_AuthApp: App {
+    @ObservedObject var authCodeItemsProvider = AuthCodeItemsProvider()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(authCodeItemsProvider)
         }
     }
 }

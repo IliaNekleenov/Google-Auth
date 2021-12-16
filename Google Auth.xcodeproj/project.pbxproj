@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C314F35E2710FC1D002AAF32 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314F35D2710FC1D002AAF32 /* VisualEffectView.swift */; };
 		C34E9F2726F28B11005F1958 /* Google_AuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F2626F28B11005F1958 /* Google_AuthApp.swift */; };
 		C34E9F2926F28B11005F1958 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F2826F28B11005F1958 /* ContentView.swift */; };
 		C34E9F2B26F28B14005F1958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34E9F2A26F28B14005F1958 /* Assets.xcassets */; };
 		C34E9F2E26F28B14005F1958 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34E9F2D26F28B14005F1958 /* Preview Assets.xcassets */; };
 		C34E9F3926F28B15005F1958 /* Google_AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F3826F28B15005F1958 /* Google_AuthTests.swift */; };
 		C34E9F4426F28B15005F1958 /* Google_AuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F4326F28B15005F1958 /* Google_AuthUITests.swift */; };
+		C34E9F5326F28C59005F1958 /* AuthAccountsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F5226F28C59005F1958 /* AuthAccountsProvider.swift */; };
+		C34E9F5626F28C73005F1958 /* AuthAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F5526F28C73005F1958 /* AuthAccount.swift */; };
+		C34E9F5826F291DC005F1958 /* AuthCodeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F5726F291DC005F1958 /* AuthCodeItem.swift */; };
+		C34E9F5A26F2929A005F1958 /* AuthCodeItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F5926F2929A005F1958 /* AuthCodeItemsProvider.swift */; };
+		C34E9F5C26F292AC005F1958 /* AuthCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F5B26F292AC005F1958 /* AuthCodeGenerator.swift */; };
+		C34E9F5F26F293E8005F1958 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F5E26F293E8005F1958 /* Base32.swift */; };
+		C34E9F6126F29635005F1958 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E9F6026F29635005F1958 /* Hash.swift */; };
+		C352322B276B725B00F3B3FB /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = C352322A276B725B00F3B3FB /* CodeScanner */; };
+		C3D8667E26F336E7009498D5 /* AuthCodeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8667D26F336E7009498D5 /* AuthCodeItemView.swift */; };
+		C3D8668026F364C1009498D5 /* TimeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8667F26F364C1009498D5 /* TimeProgressView.swift */; };
+		C3D8668526F3703F009498D5 /* IndicatorsColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8668426F3703F009498D5 /* IndicatorsColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C314F35D2710FC1D002AAF32 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		C34E9F2326F28B11005F1958 /* Google Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34E9F2626F28B11005F1958 /* Google_AuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_AuthApp.swift; sourceTree = "<group>"; };
 		C34E9F2826F28B11005F1958 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +58,16 @@
 		C34E9F3F26F28B15005F1958 /* Google AuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google AuthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34E9F4326F28B15005F1958 /* Google_AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_AuthUITests.swift; sourceTree = "<group>"; };
 		C34E9F4526F28B15005F1958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34E9F5226F28C59005F1958 /* AuthAccountsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAccountsProvider.swift; sourceTree = "<group>"; };
+		C34E9F5526F28C73005F1958 /* AuthAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAccount.swift; sourceTree = "<group>"; };
+		C34E9F5726F291DC005F1958 /* AuthCodeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCodeItem.swift; sourceTree = "<group>"; };
+		C34E9F5926F2929A005F1958 /* AuthCodeItemsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCodeItemsProvider.swift; sourceTree = "<group>"; };
+		C34E9F5B26F292AC005F1958 /* AuthCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCodeGenerator.swift; sourceTree = "<group>"; };
+		C34E9F5E26F293E8005F1958 /* Base32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
+		C34E9F6026F29635005F1958 /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		C3D8667D26F336E7009498D5 /* AuthCodeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCodeItemView.swift; sourceTree = "<group>"; };
+		C3D8667F26F364C1009498D5 /* TimeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeProgressView.swift; sourceTree = "<group>"; };
+		C3D8668426F3703F009498D5 /* IndicatorsColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C352322B276B725B00F3B3FB /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +119,10 @@
 		C34E9F2526F28B11005F1958 /* Google Auth */ = {
 			isa = PBXGroup;
 			children = (
+				C3D8667C26F336C4009498D5 /* views */,
+				C34E9F5D26F293DA005F1958 /* utils */,
+				C34E9F5426F28C67005F1958 /* model */,
+				C34E9F5126F28C39005F1958 /* providers */,
 				C34E9F2626F28B11005F1958 /* Google_AuthApp.swift */,
 				C34E9F2826F28B11005F1958 /* ContentView.swift */,
 				C34E9F2A26F28B14005F1958 /* Assets.xcassets */,
@@ -130,6 +158,45 @@
 			path = "Google AuthUITests";
 			sourceTree = "<group>";
 		};
+		C34E9F5126F28C39005F1958 /* providers */ = {
+			isa = PBXGroup;
+			children = (
+				C34E9F5226F28C59005F1958 /* AuthAccountsProvider.swift */,
+				C34E9F5926F2929A005F1958 /* AuthCodeItemsProvider.swift */,
+				C34E9F5B26F292AC005F1958 /* AuthCodeGenerator.swift */,
+				C3D8668426F3703F009498D5 /* IndicatorsColorProvider.swift */,
+			);
+			path = providers;
+			sourceTree = "<group>";
+		};
+		C34E9F5426F28C67005F1958 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C34E9F5526F28C73005F1958 /* AuthAccount.swift */,
+				C34E9F5726F291DC005F1958 /* AuthCodeItem.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C34E9F5D26F293DA005F1958 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				C34E9F5E26F293E8005F1958 /* Base32.swift */,
+				C34E9F6026F29635005F1958 /* Hash.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		C3D8667C26F336C4009498D5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C3D8667D26F336E7009498D5 /* AuthCodeItemView.swift */,
+				C3D8667F26F364C1009498D5 /* TimeProgressView.swift */,
+				C314F35D2710FC1D002AAF32 /* VisualEffectView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +213,9 @@
 			dependencies = (
 			);
 			name = "Google Auth";
+			packageProductDependencies = (
+				C352322A276B725B00F3B3FB /* CodeScanner */,
+			);
 			productName = "Google Auth";
 			productReference = C34E9F2326F28B11005F1958 /* Google Auth.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +287,9 @@
 				Base,
 			);
 			mainGroup = C34E9F1A26F28B11005F1958;
+			packageReferences = (
+				C3523229276B725B00F3B3FB /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = C34E9F2426F28B11005F1958 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +334,17 @@
 			files = (
 				C34E9F2926F28B11005F1958 /* ContentView.swift in Sources */,
 				C34E9F2726F28B11005F1958 /* Google_AuthApp.swift in Sources */,
+				C34E9F5326F28C59005F1958 /* AuthAccountsProvider.swift in Sources */,
+				C34E9F5626F28C73005F1958 /* AuthAccount.swift in Sources */,
+				C34E9F5C26F292AC005F1958 /* AuthCodeGenerator.swift in Sources */,
+				C34E9F5A26F2929A005F1958 /* AuthCodeItemsProvider.swift in Sources */,
+				C3D8668526F3703F009498D5 /* IndicatorsColorProvider.swift in Sources */,
+				C3D8667E26F336E7009498D5 /* AuthCodeItemView.swift in Sources */,
+				C34E9F5826F291DC005F1958 /* AuthCodeItem.swift in Sources */,
+				C34E9F6126F29635005F1958 /* Hash.swift in Sources */,
+				C34E9F5F26F293E8005F1958 /* Base32.swift in Sources */,
+				C314F35E2710FC1D002AAF32 /* VisualEffectView.swift in Sources */,
+				C3D8668026F364C1009498D5 /* TimeProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +664,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3523229276B725B00F3B3FB /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C352322A276B725B00F3B3FB /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3523229276B725B00F3B3FB /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C34E9F1B26F28B11005F1958 /* Project object */;
 }
